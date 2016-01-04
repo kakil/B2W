@@ -1,0 +1,157 @@
+/*
+ :: Main CSS File
+ -----------------
+	 + Typgraphy
+	 + Layout
+	 + More
+ */
+ 
+body {
+	background: #ededed;
+	font-family: Cambria, Georgia, serif;
+	font-size: 12px;
+}
+ 
+* {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	padding: 8px;
+	color: #444;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: normal;
+	letter-spacing: normal;
+	line-height: 1.5em;
+}
+a {
+	color: #225a99;
+}
+
+
+.clear {
+	clear: both;
+}
+
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+.clearfix {display: inline-block;}
+
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+
+#wrapper {
+	margin: 0 auto;
+	padding: 10px;
+	margin-top: -10px;
+	background: #fff;
+	border: 3px solid #e6e6e6;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px; 
+	border-radius: 10px;
+	padding-bottom: 30px;
+}
+	h1 {
+		
+		font-style: normal;
+		font-weight: bold;
+		text-transform: normal;
+		letter-spacing: normal;
+		line-height: 1.2em;
+		padding: 8px 0;
+	}
+	h2 {
+		font-style: normal;
+		font-weight: bold;
+		text-transform: normal;
+		letter-spacing: normal;
+		line-height: 1.2em;
+		padding: 8px 0
+	}
+	 h3 {
+		font-style: normal;
+		font-weight: normal;
+		text-transform: normal;
+		letter-spacing: normal;
+		line-height: 1.2em;
+		padding: 8px 0;
+	}
+#header {
+	width: 972px;
+	height: 130px;
+	margin-left: -6px;
+	margin-bottom: 20px;
+}
+#logo {
+	width: 700px;
+	margin: 0 auto;
+	padding-top: 18px;
+	text-align: center;
+	color: #fff;
+}
+	#logo h1 {
+		font-size: 41px;
+		font-style: normal;
+		font-weight: normal;
+		text-transform: normal;
+		letter-spacing: normal;
+		line-height: 1.2em;
+		padding: 0;
+	}
+	#logo h3 { font-weight: normal; font-size: 18px; padding-top: 0;}
+#content {
+	padding-bottom: 20px;
+}
+	
+#sidebar p {
+	font-size: 14px; 
+}
+ul { list-style: none; }
+ul li {
+	padding: 0;
+	padding-left: 60px;
+	background: url(images/listicon1.png) no-repeat left top;
+	border-bottom: 1px dashed #ddd;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+#footer {
+	width: 960px;
+	margin: 0 auto;
+	padding: 10px 0;
+	text-align: center;
+}
+#footer p { font-size: 11px;}
+#greyBox {
+margin-top: -20px;
+margin-bottom: 20px;
+}
+	#greyBox p { font-size: 13px; line-height: 1.3em; color: #888; }
+	p.lock { padding-left: 23px;
+		background: url(images/lock2.gif) no-repeat left;
+		border: 1px solid #fff;
+		color: #888;
+		margin: 10px 0;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		-khtml-border-radius: 10px; 
+		border-radius: 10px;
+	}
+hr {
+	border: none;
+	margin: 10px 10px;
+	clear: both;
+}
+#fb-root {
+	padding-top: 20px;
+}
